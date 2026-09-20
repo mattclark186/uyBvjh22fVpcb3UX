@@ -74,7 +74,7 @@ There were 13 attributes (features) relating to each of 40,000 customers, as wel
 | Model Type | Class 1 Recall | Class 0 Precision | Class 1 Precision |
 | :---: | :---: | :---: | :---: |
 | Nearest Centroid | 82% | 98% | 18% |
-| QDA | 99% | 99% | 8% |
 | XGBoost | 91% | 99% | 30% |
+| QDA | 99% | 99% | 8% |
 | GaussianNB | 97% | 99% | 11% |
 
