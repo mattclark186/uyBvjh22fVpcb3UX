@@ -1,14 +1,12 @@
 # # Web App
 # In[10]:
 
-import seaborn
 import streamlit as st
 import pandas as pd
 
 st.write("Pandas:", pd.__version__)
-
-
 import joblib
+st.write("Joblib", joblib.__version__)
 
 
 

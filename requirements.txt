@@ -1,2 +1,5 @@
-joblib
-seaborn
+joblib==1.5.2
+pandas
+numpy
+scikit-learn
+xgboost
