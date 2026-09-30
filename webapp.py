@@ -4,7 +4,14 @@
 
 import streamlit as st
 import pandas as pd
-import joblib
+
+st.write("Pandas:", pd.__version__)
+
+try:
+    import joblib
+    st.write("Joblib:", joblib.__version__)
+except Exception as e:
+    st.error(f"Joblib failed: {e}")
 
 
 # In[14]:
