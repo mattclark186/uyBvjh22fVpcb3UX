@@ -1,16 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # # Web App
-
-# In[9]:
-
-
-import os
-os.chdir(r"C:\Users\mattc\OneDrive\Documents\Data\Apziva\uyBvjh22fVpcb3UX")
-os.getcwd()
-
-
 # In[10]:
 
 
