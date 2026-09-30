@@ -7,11 +7,8 @@ import pandas as pd
 
 st.write("Pandas:", pd.__version__)
 
-try:
-    import joblib
-    st.write("Joblib:", joblib.__version__)
-except Exception as e:
-    st.error(f"Joblib failed: {e}")
+import joblib
+
 
 
 # In[14]:
