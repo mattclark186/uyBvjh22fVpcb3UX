@@ -1,11 +1,12 @@
 # # Web App
 # In[10]:
 
-
+import seaborn
 import streamlit as st
 import pandas as pd
 
 st.write("Pandas:", pd.__version__)
+
 
 import joblib
 
@@ -30,6 +31,31 @@ html, body, [data-testid="stAppViewContainer"] {
 
 st.markdown('## Customer Subscription Predictor')
 st.markdown('**Welcome! Use this app to confidently determine whether a customer is worth contacting based on a few simple details.**')
+
+st.markdown("""
+<style>
+label[data-testid="stWidgetLabel"] p {
+    font-weight: 700 !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+[data-baseweb="tab"] * {
+    font-family: 'Manrope', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+/* Reduce space around the tabs */
+[data-testid="stTabs"] {
+    margin-top: -30px !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 tab1, tab2 = st.tabs(['Predictor', 'How Does it Work?'])
 
@@ -63,7 +89,7 @@ with tab1:
             'Quarter of Last Contact',
             ['Q1', 'Q2', 'Q3', 'Q4'])
         duration_group = st.selectbox(
-            'Duration of Last Contact',
+            'Last Contact Duration',
             ['0-1 min', '1-2 min', '2-4 min', '4-6 min', '6-10 min', '10-15 min', '15-20 min', '20+ min'])
 
     education_mapping = {

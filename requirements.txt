@@ -1,6 +1,2 @@
-streamlit
-joblib==1.5.2
-scikit-learn
-xgboost
-pandas
-numpy
+joblib
+pipeline
