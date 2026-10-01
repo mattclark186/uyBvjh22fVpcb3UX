@@ -23,7 +23,7 @@ label[data-testid="stWidgetLabel"] p {
 # reduce space above tabs text and make tabs text bigger and bolder
 st.markdown("""
 <style>
-[data-baseweb="tab"] * {
+div[data-testid="stTabs"] button[role="tab"] {
     font-size: 16px !important;
     font-weight: 600 !important;
 }
