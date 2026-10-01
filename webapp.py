@@ -3,12 +3,7 @@
 
 import streamlit as st
 import pandas as pd
-
-st.write("Pandas:", pd.__version__)
 import joblib
-st.write("Joblib", joblib.__version__)
-
-
 
 # In[14]:
 model = joblib.load('src/models/bank_loan_model.joblib')
