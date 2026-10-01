@@ -8,6 +8,7 @@ import joblib
 # In[14]:
 model = joblib.load('src/models/bank_loan_model.joblib')
 
+# change font
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
@@ -25,6 +26,7 @@ html, body, [data-testid="stAppViewContainer"] {
 st.markdown('## Customer Subscription Predictor')
 st.markdown('**Welcome! Use this app to confidently determine whether a customer is worth contacting based on a few simple details.**')
 
+# make question text bold
 st.markdown("""
 <style>
 label[data-testid="stWidgetLabel"] p {
@@ -33,6 +35,7 @@ label[data-testid="stWidgetLabel"] p {
 </style>
 """, unsafe_allow_html=True)
 
+# reduce space above tabs text and make tabs text bigger and bolder
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
