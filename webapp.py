@@ -23,10 +23,7 @@ label[data-testid="stWidgetLabel"] p {
 # reduce space above tabs text and make tabs text bigger and bolder
 st.markdown("""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
-
 [data-baseweb="tab"] * {
-    font-family: 'Manrope', sans-serif !important;
     font-size: 16px !important;
     font-weight: 600 !important;
 }
