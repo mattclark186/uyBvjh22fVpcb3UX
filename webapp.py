@@ -20,21 +20,6 @@ label[data-testid="stWidgetLabel"] p {
 </style>
 """, unsafe_allow_html=True)
 
-# reduce space above tabs text and make tabs text bigger and bolder
-st.markdown("""
-<style>
-[data-baseweb="tab"] * {
-    font-size: 16px !important;
-    font-weight: 600 !important;
-}
-
-/* Reduce space around the tabs */
-[data-testid="stTabs"] {
-    margin-top: -30px !important;
-}
-</style>
-""", unsafe_allow_html=True)
-
 tab1, tab2 = st.tabs(['Predictor', 'How Does it Work?'])
 
 with tab1:
