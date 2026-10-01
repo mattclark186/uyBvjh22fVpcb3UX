@@ -8,21 +8,6 @@ import joblib
 # In[14]:
 model = joblib.load('src/models/bank_loan_model.joblib')
 
-# change font
-st.markdown("""
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
-
-html, body, [data-testid="stAppViewContainer"] {
-    font-family: 'Manrope', sans-serif !important;
-}
-
-[data-testid="stAppViewContainer"] * {
-    font-family: 'Manrope', sans-serif !important;
-}
-</style>
-""", unsafe_allow_html=True)
-
 st.markdown('## Customer Subscription Predictor')
 st.markdown('**Welcome! Use this app to confidently determine whether a customer is worth contacting based on a few simple details.**')
 

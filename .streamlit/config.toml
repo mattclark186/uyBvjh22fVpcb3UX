@@ -4,4 +4,5 @@ backgroundColor = '#D4E2FA'
 primaryColor = '#4C658C'
 secondaryBackgroundColor = '#EDF1F7'
 
+font = "Manrope:https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap, sans-serif"
 baseFontSize = 16
