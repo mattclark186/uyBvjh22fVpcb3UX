@@ -1,6 +1,10 @@
 # Call Centre Sales Predictions
 
-This project aimed to improve the success rate of sales calls made by the call centre of a bank. Using data of existing customers, a machine learning model was built to identify which customers were likely to subscribe to the product on offer and which customers were not likely to subscribe. This was then used to power a web app which would recommend whether a customer was worth calling based on some simple details.
+This project aimed to improve the success rate of sales calls made by the call centre of a bank.
+
+Using data of existing customers, a machine learning model was built to identify which customers were likely to subscribe to the product on offer and which customers were not likely to subscribe.
+
+This was then used to power a web app which would recommend whether a customer was worth calling based on some simple details.
 
 The model was an XGBoost Classifier that achieved:
 - **90% Recall** for Subscribers
