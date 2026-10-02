@@ -73,8 +73,8 @@ There were 13 attributes (features) relating to each of 40,000 customers, as wel
 
 | Model Type | Reduction in Calls | Class 1 Recall | Class 0 Precision | Class 1 Precision | 
 | :---: | :---: | :---: | :---: | :---: |
-| [Quadratic Discriminant Analysis](/notebooks/modelling/quadratic_discriminant_analysis.ipynb) | 13% |99% | 99% | 8% |
-| [Gaussian Naive Bayes](/notebooks/modelling/gaussian_nb.ipynb) | 36% | 97% | 99% | 11% |
+| [QDA](/notebooks/modelling/quadratic_discriminant_analysis.ipynb) | 13% |99% | 99% | 8% |
+| [GaussianNB](/notebooks/modelling/gaussian_nb.ipynb) | 36% | 97% | 99% | 11% |
 | [Nearest Centroid](/notebooks/modelling/nearest_centroid.ipynb) | 67% | 82% | 98% | 18% |
 | [XGBoost](/notebooks/modelling/xgboost_classifier.ipynb) | 76% | 90% | 99% | 28% |
 
