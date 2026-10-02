@@ -57,12 +57,11 @@ There were 13 attributes (features) relating to each of 40,000 customers, as wel
 
 **Modelling**
 
-[Modelling Notebooks](/notebooks/modelling)
-- Using LazyPredict, the best candidate models were identified as:
-  - Nearest Centroid
-  - XGBoost
-  - Quadratic Discriminant Analysis
-  - Gaussian Naive Bayes
+- Using [LazyPredict](/notebooks/modelling/lazy_predict.ipynb), the best candidate models were identified as:
+  - [Nearest Centroid](/notebooks/modelling/nearest_centroid.ipynb)
+  - [XGBoost](/notebooks/modelling/xgboost_classifier.ipynb)
+  - [Quadratic Discriminant Analysis](/notebooks/modelling/quadratic_discriminant_analysis.ipynb)
+  - [Gaussian Naive Bayes](/notebooks/modelling/gaussian_nb.ipynb)
 - For each feature, the categories were One Hot Encoded
 - For each model, GridSearchCV was used to tune the hyperparameters
 - The importance of each feature was assessed using Permutation Importance
@@ -74,8 +73,9 @@ There were 13 attributes (features) relating to each of 40,000 customers, as wel
 
 | Model Type | Reduction in Calls | Class 1 Recall | Class 0 Precision | Class 1 Precision | 
 | :---: | :---: | :---: | :---: | :---: |
-| QDA | 13% |99% | 99% | 8% |
-| GaussianNB | 36% | 97% | 99% | 11% |
-| Nearest Centroid | 67% | 82% | 98% | 18% |
-| XGBoost | 76% | 90% | 99% | 28% |
+| [Quadratic Discriminant Analysis](/notebooks/modelling/quadratic_discriminant_analysis.ipynb) | 13% |99% | 99% | 8% |
+| [Gaussian Naive Bayes](/notebooks/modelling/gaussian_nb.ipynb) | 36% | 97% | 99% | 11% |
+| [Nearest Centroid](/notebooks/modelling/nearest_centroid.ipynb) | 67% | 82% | 98% | 18% |
+| [XGBoost](/notebooks/modelling/xgboost_classifier.ipynb) | 76% | 90% | 99% | 28% |
 
+The table shows the correlation between class 1 precision and reduction in calls - a consequence of the fact the dataset was significantly imbalanced in favour of class 0. In other words, being able to identify subscribers with as few false positives as possible was key to an effective model. 
