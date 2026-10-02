@@ -2,7 +2,7 @@
 
 This project aimed to improve the success rate of sales calls made by the call centre of a bank.
 
-Using data of existing customers, a **machine learning model** was built using **Python** to identify which customers were likely to subscribe to the product on offer and which customers were not likely to subscribe.
+Using data of existing customers, a **machine learning** model was built using **Python** to identify which customers were likely to subscribe to the product on offer and which customers were not likely to subscribe.
 
 This was then used to power a web app made with **Streamlit** which would recommend whether a customer was worth calling based on some simple details.
 
@@ -82,4 +82,10 @@ There were 13 attributes (features) relating to each of 40,000 customers, as wel
 | [Nearest Centroid](/notebooks/modelling/nearest_centroid.ipynb) | 67% | 82% | 98% | 18% |
 | [XGBoost](/notebooks/modelling/xgboost_classifier.ipynb) | 76% | 90% | 99% | 28% |
 
-The table shows the correlation between class 1 precision and reduction in calls - a consequence of the fact the dataset was significantly imbalanced in favour of class 0. In other words, being able to identify subscribers with as few false positives as possible was key to an effective model. 
+The table shows the correlation between class 1 precision and reduction in calls - a consequence of the fact the dataset was significantly imbalanced in favour of class 0. 
+
+Similarly, achieving a high class 0 precision is relatively easy because class 1 cases are far less frequent.
+
+Furthermore, it shows that achieving a high class 1 recall is useless with a low class 1 precision as this leads to a small reducion in total calls.
+
+In other words, being able to identify subscribers with as few false positives as possible was key to an effective model, which XGBoost achieved.
