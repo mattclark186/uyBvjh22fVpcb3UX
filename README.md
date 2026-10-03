@@ -14,6 +14,8 @@ Using the web app, the call centre could increase their success rate while maint
 - **76% Reduction** in Total Calls
 - **90% Retention** of Sales
 
+[Web App Link](https://customer-subscription-predictor.streamlit.app/)
+
 ## The Brief
 
 The client was a European banking institution that had run a marketing campaign to get customers to subscribe to their term deposit product. Multiple phone calls were made to customers and various data were collated. The client wanted to increase efficiency by using this data to determine beforehand whether a customer was likely or unlikely to subscribe. This would result in sales still being made but with fewer total calls required.
@@ -89,3 +91,13 @@ Similarly, achieving a high class 0 precision is relatively easy because class 1
 Furthermore, it shows that achieving a high class 1 recall is useless with a low class 1 precision as this leads to a small reducion in total calls.
 
 In other words, being able to identify subscribers with as few false positives as possible was key to an effective model, which XGBoost achieved.
+
+## Interactive Web App
+
+The machine learning model was packaged using joblib and used to power an app made with streamlit. The users need to enter a few simple details about a customer and the app will recommend whether or not to call them based on the predictions of the model. Following the apps recommendations will lead to a 76% reduction in total calls made whilst still maintaining 90% of sales.
+
+Follow the link to try the app.
+
+[Web App Link](https://customer-subscription-predictor.streamlit.app/)
+
+[Web App Python Script](/webapp.py)
