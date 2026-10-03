@@ -94,10 +94,19 @@ In other words, being able to identify subscribers with as few false positives a
 
 ## Interactive Web App
 
-The machine learning model was packaged using joblib and used to power an app made with streamlit. The users need to enter a few simple details about a customer and the app will recommend whether or not to call them based on the predictions of the model. Following the apps recommendations will lead to a 76% reduction in total calls made whilst still maintaining 90% of sales.
+The machine learning model was packaged using joblib and used to power an app made with Streamlit. The users need to enter a few simple details about a customer and the app will recommend whether or not to call them based on the predictions of the model.
+
+Following the apps recommendations will lead to a 76% reduction in total calls made whilst still maintaining 90% of sales.
 
 Follow the link to try the app.
 
 [Web App Link](https://customer-subscription-predictor.streamlit.app/)
+
+The app was built using the following Python script. It contains the use of Streamlit features including
+- Tabs
+- Columns
+- Containers
+- Buttons
+- CSS for formatting
 
 [Web App Python Script](/webapp.py)
