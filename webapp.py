@@ -6,7 +6,7 @@ import pandas as pd
 import joblib
 
 # In[14]:
-model = joblib.load('src/models/bank_loan_model.joblib')
+model = joblib.load('models/bank_loan_model.joblib')
 
 st.markdown('## Customer Subscription Predictor')
 st.markdown('**Welcome! Use this app to confidently determine whether a customer is worth contacting based on a few simple details.**')
