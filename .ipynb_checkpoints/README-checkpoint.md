@@ -1,4 +1,4 @@
-# Call Centre Sales Predictions
+# uyBvjh22fVpcb3UX
 
 This project aimed to improve the success rate of sales calls made by the call centre of a bank.
 
@@ -72,7 +72,7 @@ There were 13 attributes (features) relating to each of 40,000 customers, as wel
 - For each model, GridSearchCV was used to tune the hyperparameters
 - The importance of each feature was assessed using Permutation Importance
 - Features negatively or negligibly impacting the results were removed
-- The final model chosen was GaussianNB
+- The final model chosen was XGBoost
 - The most important feature was identified as Duration
 
 **Model Performance**
