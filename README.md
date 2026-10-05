@@ -10,7 +10,7 @@ The model was an **XGBoost** Classifier that achieved:
 - **90% Recall** for Subscribers
 - **99% Precision** for Non-Subscribers
 
-Using the web app, the call centre could increase their success rate while maintaining the majority of their sales:
+Using the **web app**, the call centre could increase their success rate while maintaining the majority of their sales:
 - **76% Reduction** in Total Calls
 - **90% Retention** of Sales
 
